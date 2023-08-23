@@ -1,5 +1,5 @@
 {
-  "title": "API Reference",
+  "title": "API de Referência",
   "path": "/reference/react",
   "routes": [
     {
@@ -73,7 +73,7 @@
       ]
     },
     {
-      "title": "Components",
+      "title": "Componentes",
       "path": "/reference/react/components",
       "routes": [
         {
@@ -121,11 +121,28 @@
       ]
     },
     {
+      "title": "Directives",
+      "path": "/reference/react/directives",
+      "canary": true,
+      "routes": [
+        {
+          "title": "'use client'",
+          "path": "/reference/react/use-client",
+          "canary": true
+        },
+        {
+          "title": "'use server'",
+          "path": "/reference/react/use-server",
+          "canary": true
+        }
+      ]
+    },
+    {
       "hasSectionHeader": true,
       "sectionHeader": "react-dom@18.2.0"
     },
     {
-      "title": "Components",
+      "title": "Componentes",
       "path": "/reference/react-dom/components",
       "routes": [
         {
@@ -185,7 +202,7 @@
       ]
     },
     {
-      "title": "Client APIs",
+      "title": "APIs do Cliente",
       "path": "/reference/react-dom/client",
       "routes": [
         {
@@ -199,7 +216,7 @@
       ]
     },
     {
-      "title": "Server APIs",
+      "title": "APIs do Servidor",
       "path": "/reference/react-dom/server",
       "routes": [
         {
@@ -230,10 +247,10 @@
     },
     {
       "hasSectionHeader": true,
-      "sectionHeader": "Legacy APIs"
+      "sectionHeader": "APIs Legadas"
     },
     {
-      "title": "Legacy React APIs",
+      "title": "APIs Legadas do React",
       "path": "/reference/react/legacy",
       "routes": [
         {
